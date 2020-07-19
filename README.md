@@ -9,7 +9,7 @@
 
 > Python build and Graphics
 
-***INSERT ANOTHER GRAPHIC HERE***
+***Code peak ***
 
 [![INSERT YOUR GRAPHIC HERE](Self-driving.png)]()
 
@@ -43,29 +43,14 @@
 
 ---
 
-## Example (Optional)
-
-```javascript
-// code away!
-
-let generateProject = project => {
-  let code = [];
-  for (let js = 0; js < project.length; js++) {
-    code.push(js);
-  }
-};
-```
-
----
 
 ## Installation
 
-- All the `code` required to get started
-- Images of what it should look like
+- With a few lib set up we can start!!
 
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/fvcproductions/SOMEREPO`
+- Clone this repo to your local machine using `https://github.com/charlesZ-byte/Self_Driving_Car.git`
 
 ### Setup
 
@@ -75,27 +60,29 @@ let generateProject = project => {
 
 ```shell
 $ brew update
-$ brew install fvcproductions
 ```
 
 > now install npm and bower packages
 
 ```shell
 $ npm install
-$ bower install
+$ bower installpip install torch torchvision
 ```
+> Install pytorch we are good to go
 
+```shell
+$ brew install python
+$ pip install torch torchvision
+```
 - For all the possible languages that support syntax highlithing on GitHub (which is basically all of them), refer <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml" target="_blank">here</a>.
 
 ---
 
 ## Features
-## Usage (Optional)
-## Documentation (Optional)
-## Tests (Optional)
-
-- Going into more detail on code and technologies used
-- I utilized this nifty <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown Cheatsheet</a> for this sample `README`.
+- Run ai.py and draw a path from top let to top right
+- Train the car to follow the path
+- Save for future test
+- Load previous tested Q learning model
 
 ---
 
@@ -121,24 +108,10 @@ $ bower install
 
 ---
 
-## Team
-
-> Or Contributors/People
-
-| <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> |
-| :---: |:---:| :---:|
-| [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)    | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)  |
-| <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> |
-
-- You can just grab their GitHub profile image URL
-- You should probably resize their picture using `?s=200` at the end of the image URL.
-
----
-
 ## FAQ
 
-- **How do I do *specifically* so and so?**
-    - No problem! Just do this.
+- **How do play the car model?**
+    - It is easy, just draw the path from top left to bottom right, the car will learn itself, isn't is cool?
 
 ---
 
@@ -146,18 +119,8 @@ $ bower install
 
 Reach out to me at one of the following places!
 
-- Website at <a href="http://fvcproductions.com" target="_blank">`fvcproductions.com`</a>
-- Twitter at <a href="http://twitter.com/fvcproductions" target="_blank">`@fvcproductions`</a>
-- Insert more social links here.
-
----
-
-## Donations (Optional)
-
-- You could include a <a href="https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png" target="_blank">Gratipay</a> link as well.
-
-[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png)](https://gratipay.com/fvcproductions/)
-
+- Website at <a href="http://www.charleszhang0502.com" target="_blank">`www.charleszhang0502.com`</a>
+- LinkedIn at <a href="www.linkedin.com/in/shuming-zhang52" target="_blank">`www.linkedin.com/in/shuming-zhang52`</a>
 
 ---
 
